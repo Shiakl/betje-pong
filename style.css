@@ -1,0 +1,20 @@
+.main-wrapper{
+    margin: 0 auto;
+    width: 1000px
+}
+body{
+    background-image: url("tafeltennis.jpg");
+    background: url("tafeltennis.jpg")center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: repeat-x;
+}   
+header nav{
+    width: 100px;
+    height: 60px;   
+}
+header nav ul{
+    float: right;
+    list-style: none;
+}
