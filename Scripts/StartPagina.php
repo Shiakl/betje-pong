@@ -7,11 +7,12 @@
         <title>Homepage Betje Pong</title>
         <link 
     </head>
+
      <body>
-    <form action="Toernooi.php" method="POST">
-    <button type="Toernooi" name"Toernooi">Toernooi</button>
+    <form action="ledenlijst.php" method="POST">
+    <button type="Toernooi" name"Toernooi">Ledenlijst</button>
     </form>
-    <form action="Leden_wijzigen.php" method="POST">
+    <form action="Leden_overzicht.php" method="POST">
     <button type="Leden Wijzigen" name"Leden Wijzigen">Leden Wijzigen</button>
     </form>
     <form action="Leden_aanmaken.php" method="POST">
