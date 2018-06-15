@@ -1,0 +1,154 @@
+body{
+    font: 15px/1.5 Arial,Helvetica, sans-serif; 
+    padding : 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}   
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.AddButton{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    height: 38px;
+    width: 94px;
+    background: #aa2b2b;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.AddButton:hover {
+    background: #a3a3a3;
+}
+
+.buttonlayout{
+    height: 38px;
+    background: #ffffff;
+}
+
+.buttonlayout:hover {
+    background: #a3a3a3;
+}
+
+/* Header */
+
+header{
+    background: #d6b474;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+    margin-bottom: 15px;
+}
+
+header a{
+
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{    
+    float: left;
+}
+header #branding b{
+    font-size: 50%;
+}
+
+header #nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight2, header .current a{
+    color: #aa2b2b;
+    font-weight: bold;
+}
+header .highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Showcase*/
+
+#showcase{
+    min-height: 400px;
+    background:url('../img/showcase.jpg')no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/**/
+
+#newsletter{
+    height: 80px;
+    margin-top: 15px;
+    padding:15px;
+    color: #ffffff;
+    background: #686868;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes .tableid {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#boxes .tableid td, #boxes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#boxes .tableid tr:nth-child(even){
+    background-color: #f2f2f2; 
+}
+
+#boxes .tableid tr:hover {
+    background-color: #ddd;
+}
+
+#boxes .tableid th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #aa2b2b;
+    color: white;
+}
+
+#boxes .tableid {
+    margin: auto;
+}
